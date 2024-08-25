@@ -34,12 +34,12 @@ This project involves the deployment of a 5-item NFT collection using Bing AI-ge
 ### Contract Name and Symbol
 
 ```solidity
-contract Rambat is ERC721A
+contract DARK is ERC721A
 ```
-Name : Rambat  
-Symbol :RAB
+Name : DARK 
+Symbol :DRK
 
-The `Rambat` contract extends the `ERC721A` contract and represents a collection of unique NFTs inspired by the DC Comic universe and batman series.
+The `DARK` contract extends the `ERC721A` contract and represents a collection of unique NFTs inspired by the DC Comic universe and batman series.
 
 ### Maximum Quantity of Tokens
 
@@ -52,7 +52,7 @@ The `maxLimit` variable sets the maximum number of NFTs that can be minted withi
 ### Base URL for NFTs (IPFS Base URL)
 
 ```solidity
-string baseUrl = "https://gateway.pinata.cloud/ipfs/QmbGv2EgvbsBWKjF2oJU5yQ2Q6H165fnkUiuPqfyBT74fq/";
+string baseUrl = "https://gateway.pinata.cloud/ipfs/QmSKNVadvcKtG1UwGpf4LMqHq8UxXNsWXnYHxhKtMA79N8";
 ```
 
 The `baseUrl` variable defines the base URL for the NFTs' metadata. This URL will be combined with the token ID to form the complete URL for accessing each NFT's metadata stored on the IPFS platform.
@@ -60,7 +60,7 @@ The `baseUrl` variable defines the base URL for the NFTs' metadata. This URL wil
 ### Prompt Description
 
 ```solidity
-string public prompt = "Ram Man VS Batman, conceptual art, cinematic, poster. ";
+string public prompt = "DARK, conceptual art, cinematic, poster. ";
 ```
 > Prompt can be anything based your Intrest 
 
@@ -84,6 +84,5 @@ string public prompt = "Ram Man VS Batman, conceptual art, cinematic, poster. ";
 ### Check Balance 
 1. Edit the `getBalance.js` script with required details.
 2. Run the script: `npx hardhat run scripts/getBalance.js --network amoy`
-## Authors
-
-- Priyanshu Vasava
+## Authors  
+Kartik Raghuwanshi
