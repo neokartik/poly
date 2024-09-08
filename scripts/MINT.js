@@ -18,7 +18,7 @@ async function main() {
   const signer = new ethers.Wallet(privateKey, provider);
 
   // The address of the deployed contract 
-  const contractAddress = "0xF129e64c15299c1967C16b22381fB436d6087e59";
+  const contractAddress = "0xa5fD595515c80e34caD7F0878Fdd08f248A8933E";
 
   // Get the contract factory for the DARK contract and attach it to the signer
   const OneNFT = await ethers.getContractFactory("DARK", signer);
